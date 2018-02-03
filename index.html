@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Imperial Boootstrap Template</title>
+  <title>Ascent Crest</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <meta name="google-site-verification" content="GU0Jq-poE57So1NPoV0jEdcs7kYX-NPC7Tk_SDsL7bU" />
     
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
@@ -36,7 +37,15 @@
   
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112447087-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-112447087-1');
+	</script>
+
 <!-- =======================================================
   Theme Name: Imperial
   Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
@@ -166,13 +175,13 @@
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-          <h4 class="service-title"><a href="">Enterpirse Products</a></h4>
+          <h4 class="service-title"><a href="">Enterprise Products</a></h4>
           <p class="service-description">Java EE-based application runtime platform used to build, manage, deploy, and host highly-transactional Java applications and services.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
           <h4 class="service-title"><a href="">Data Analysis</a></h4>
-          <p class="service-description">Analyzing Data creating insightson the given data and create Visualization to make you your business smarter.</p>
+          <p class="service-description">Analyzing Data creating insights on the given data and create visualization to make your business smarter.</p>
         </div>
         </div>
 		<div class="row">
@@ -184,12 +193,12 @@
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-road"></i></div>
           <h4 class="service-title"><a href="">Reporting</a></h4>
-          <p class="service-description">Create custom Reports for your Applications using best in market Pratices and tools.</p>
+          <p class="service-description">Create custom reports for your applications using best in market pratices and tools.</p>
         </div>
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
           <h4 class="service-title"><a href="">Cloud Computing</a></h4>
-          <p class="service-description">Create Scalable Secure SaaS based Applications powered by AWS cloud Platform.</p>
+          <p class="service-description">Create scalable secure SaaS based applications powered by AWS cloud Platform.</p>
         </div>
       </div>
     </div>  
@@ -198,7 +207,7 @@
 <!--==========================
   Subscrbe Section
 ============================-->  
-  <section id="subscribe">
+  <!--<section id="subscribe">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-8">
@@ -210,7 +219,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>--> 
     
 <!--==========================
   Porfolio Section
@@ -440,17 +449,18 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>BL52 Bhosle Nagar Shivajinagar,<br>Pune, Maharashtra</p>
+              <p>52/3, Darshana Appartment, Bhosle Nagar<br>Pune, Maharashtra</p>
             </div>
             
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@ascentcrest.com</p>
+              <p>sales@ascentcrest.com</p>
             </div>
             
             <div>
               <i class="fa fa-phone"></i>
-              <p>Coming Soon</p>
+              <!-- <p>+91 8888 0559 32</p> -->
+			  <p><a href="tel:+91 8888 0559 32">+91 8888 0559 32</a></p>
             </div>
             
           </div>
@@ -460,7 +470,7 @@
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="https://formspree.io/sales@ascentcrest.com" method="POST" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -477,6 +487,7 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
+				<input type="hidden" name="_next" value="//" />
                 <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
@@ -495,15 +506,6 @@
           <div class="col-md-12">
             <div class="copyright">
               &copy; Copyright <strong>AscentCrest</strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-              <!-- 
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
-              -->
-              Bootstrap Themes by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
         </div>
@@ -527,6 +529,12 @@
   
   <script src="contactform/contactform.js"></script>
   
+  <!-- Widget for social media -->
+  <script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/122368/script.js');
+</script>
     
 </body>
 </html>
